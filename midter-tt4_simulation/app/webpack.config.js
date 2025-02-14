@@ -51,11 +51,11 @@ module.exports = {
     //   chunks: ["list", "main"],
     //   filename: "list.html",
     // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./edit.html",
-    //   chunks: ["edit", "main"],
-    //   filename: "edit.html",
-    // }),
+     new HtmlWebpackPlugin({
+       template: "./edit.html",
+      chunks: ["edit", "main"],
+       filename: "edit.html",
+     }),
   ],
   devServer: {
     static: "./dist",
